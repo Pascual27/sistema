@@ -10,20 +10,21 @@ $direccion         = $_POST ['direccion'];
 $correo            = $_POST ['correo']; 
 $telefono          = $_POST ['telefono']; 
 $id_genero         = $_POST ['id_genero']; 
-$nivel_educacion   = $_POST ['nivel_educacion']; 
+$nivel_edu  = $_POST ['nivel_educacion']; 
 $cond_laboral      = $_POST ['cond_laboral']; 
 $id_cargo          = $_POST ['id_cargo']; 
 
 
-$b_docente = buscarDocenteByDni($conexion, $dni);
+$b_docente = buscarDocenteById($conexion, $dni);
 $c_r_b_docente = mysqli_num_rows($b_docente);
 
 if ($c_r_b_docente == 0) {//validamos que no haya registros en la base de datos
   
-  $insertar = "INSERT INTO docente (dni, apellidos_nombres,  fecha_nac, direccion, correo, telefono, id_genero, nivel_educacion, cond_laboral, id_cargo) VALUES ('$dni','$apellidos_nombres', '$fecha_nac', '$direccion', '$correo', '$telefono','$id_genero', '$nivel_educacion','$cond_laboral', '$id_cargo')";
+  $insertar = "INSERT INTO docente (dni, apellidos_nombres,  fecha_nac, direccion, correo, telefono, id_genero, nivel_educacion, cond_laboral, id_cargo) 
+  VALUES ('$dni','$apellidos_nombres', '$fecha_nac', '$direccion', '$correo', '$telefono','$id_genero', '$nivel_edu','$cond_laboral', '$id_cargo')";
   $ejecutar_insetar = mysqli_query($conexion, $insertar);
   // registrar usuario
-  $b_id_docente = buscarDocenteByDni($conexion, $dni);
+  $b_id_docente = buscarDocenteById($conexion, $dni);
   $res_b_docente = mysqli_fetch_array($b_id_docente);
   $id_docente = $res_b_docente['id'];
   $pass = "@".$dni."#2022";

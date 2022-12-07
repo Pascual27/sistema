@@ -1,18 +1,18 @@
-        <div class="col-md-3 left_col">
+<div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>sistema Academico!</span></a>
             </div>
 
             <div class="clearfix"></div>
              <?php
-            $buscar_docente_sesion = buscarDocenteById($conexion, $_SESSION["localhost_id_usu_sistema_iesthuanta"]);
+            $buscar_docente_sesion = buscarDocenteById($conexion, $_SESSION['id_usu_sistema_iesthuanta']);
             $res_b_u_s = mysqli_fetch_array($buscar_docente_sesion);
              ?>
             <!-- menu profile quick info -->
             <div class="profile clearfix">
               <div class="profile_pic">
-                <img src="Gentella/production/images/img.jpg" alt="..." class="img-circle profile_img">
+                <img src="" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
                 <span>Welcome,</span>
@@ -34,11 +34,11 @@
                   <li><a><i class="fa fa-edit"></i> Datos Institucionales <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="dato_institucional.php">Datos Institucionales</a></li>
-                      <li><a href="periodo_academico.php">Periodo Académico</a></li>
+                      <li><a href="periodo_academico1.php">Periodo Académico</a></li>
                       <li><a href="presente_per_acad.php">Presente Periodo Académico</a></li>
-                      <li><a href="programa_estudios.php">Programa de Estudios</a></li>
+                      <li><a href="programa_estudios1.php">Programa de Estudios</a></li>
                       <li><a href="modulo_formativo.php">Modulos formativos</a></li>
-                      <li><a href="semestre.php">Semestre</a></li>
+                      <li><a href="semestre1.php">Semestre</a></li>
                       <li><a href="unidad_didactica.php">Unidades didacticas</a></li>
                       <li><a href="cargo.php">Cargo</a></li>
                       <li><a href="genero.php">Género</a></li>
@@ -64,11 +64,6 @@
                       <li><a href="usuario_estudiante.php">Usuarios Estudiante</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-book"></i> Cargo <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="estudiantes.php">Estudiante</a></li>
-                      <li><a href="usuario_estudiante.php">Usuarios Estudiante</a></li>
-                    </ul>
                 </ul>
               </div>
             </div>

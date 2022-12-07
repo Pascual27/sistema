@@ -48,5 +48,9 @@ function buscarPeriodoAcademico($conexion){
     $sql = "SELECT * FROM periodo_academico";
     return mysqli_query($conexion, $sql);
 }
+function registrardocente($conexion){
+    $sql = "SELECT * FROM docente";
+    return mysqli_query($conexion, $sql);
+}
 
 ?>
