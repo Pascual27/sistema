@@ -6,7 +6,7 @@
 
             <div class="clearfix"></div>
              <?php
-            $buscar_docente_sesion = buscarDocenteById($conexion, $_SESSION["localhost", "ceicom_pascual", "71068043+ñ", "ceicom_pascual"]);
+            $buscar_docente_sesion = buscarDocenteById($conexion, $_SESSION["localhost_id_usu_sistema_iesthuanta"]);
             $res_b_u_s = mysqli_fetch_array($buscar_docente_sesion);
              ?>
             <!-- menu profile quick info -->
@@ -64,6 +64,11 @@
                       <li><a href="usuario_estudiante.php">Usuarios Estudiante</a></li>
                     </ul>
                   </li>
+                  <li><a><i class="fa fa-book"></i> Cargo <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="estudiantes.php">Estudiante</a></li>
+                      <li><a href="usuario_estudiante.php">Usuarios Estudiante</a></li>
+                    </ul>
                 </ul>
               </div>
             </div>

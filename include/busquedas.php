@@ -35,7 +35,18 @@ function buscarDocenteById($conexion, $id){
     $sql = "SELECT * FROM docente WHERE id=$id";
     return mysqli_query($conexion, $sql);
 }
+function buscarDocente($conexion){
+    $sql = "SELECT * FROM docente";
+    return mysqli_query($conexion, $sql);
+}
+function buscarProgramaEstudios($conexion){
+    $sql = "SELECT * FROM programa_estudios";
+    return mysqli_query($conexion, $sql);
+}
 
-
+function buscarPeriodoAcademico($conexion){
+    $sql = "SELECT * FROM periodo_academico";
+    return mysqli_query($conexion, $sql);
+}
 
 ?>

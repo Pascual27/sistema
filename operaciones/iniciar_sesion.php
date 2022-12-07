@@ -10,7 +10,7 @@ $resultado_consulta = mysqli_fetch_array($ejecutar_consulta);//desfragmentar res
 $pass = $resultado_consulta['password']; //capturo la contraseña de la base de datos
 if($contar_filas==1 && password_verify($password,$pass)){
     session_start();
-    $_SESSION['id_usu_sisacad_iesthuanta'] = $resultado_consulta['id'];
+    $_SESSION['id_usu_sistema_iesthuanta'] = $resultado_consulta['id'];
     header("location: ../index.php");
 }else{
     echo "<script>
