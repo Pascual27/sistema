@@ -26,7 +26,7 @@
     <div>
       <a class="hiddenanchor" id="signup"></a>
       <a class="hiddenanchor" id="signin"></a>
-      kcenter>
+      <center>
 <img-src="./imgen/12.png" alt="logo instituto" width="150px"/›
 </center>
       <div class="login_wrapper">
