@@ -102,7 +102,7 @@
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
-                    <li><a href="javascript:;"> Profile</a></li>
+                    <li><a href="javascript:;"> Perfil</a></li>
                     <li>
                       <a href="javascript:;">
                         <span class="badge bg-red pull-right">50%</span>
@@ -124,7 +124,7 @@
                       <a>
                         <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
                         <span>
-                          <span>John Smith</span>
+                          <span>Pascual Ñaupa Cruz</span>
                           <span class="time">3 mins ago</span>
                         </span>
                         <span class="message">
@@ -134,7 +134,7 @@
                     </li>
                     <li>
                       <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="include/img.jpg" alt="Profile Image" /></span>
                         <span>
                           <span>Pascual Ñaupa</span>
                           <span class="time">3 mins ago</span>
