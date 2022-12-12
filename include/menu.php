@@ -10,15 +10,19 @@
             $res_b_u_s = mysqli_fetch_array($buscar_docente_sesion);
              ?>
             <!-- menu profile quick info -->
+            <!-- menu profile quick info -->
             <div class="profile clearfix">
               <div class="profile_pic">
-                <img src="imagen/img.jpg" alt="" class="">
+                <img src="imagen/img.jpg" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
-                <span>Bienvenido</span>
-                <h2><?php echo $res_b_u_s['Pascual Jordi Ñaupa Cruz']; ?></h2>
+                <span>Welcome,</span>
+                <h2>John Doe</h2>
               </div>
             </div>
+            <!-- /menu profile quick info -->
+
+        
             <!-- /menu profile quick info -->
 
             <br />
