@@ -29,5 +29,5 @@ if ($ejec_consulta) {
 				</script>
 			";
 }
-mysqli_close($conexion);
+
 ?>

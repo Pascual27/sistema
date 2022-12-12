@@ -15,7 +15,7 @@
                 <img src="" alt="..." class="">
               </div>
               <div class="profile_info">
-                <span>Welcome,</span>
+                <span>Bienvenido,</span>
                 <h2><?php echo $res_b_u_s['apellidos_nombres']; ?></h2>
               </div>
             </div>
@@ -136,7 +136,7 @@
                       <a>
                         <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
                         <span>
-                          <span>John Smith</span>
+                          <span>Pascual Ñaupa</span>
                           <span class="time">3 mins ago</span>
                         </span>
                         <span class="message">
@@ -148,7 +148,7 @@
                       <a>
                         <span class="image"><img src="Gentella/production/images/img.jpg" alt="Profile Image" /></span>
                         <span>
-                          <span>John Smith</span>
+                          <span>Pascual Ñaupa</span>
                           <span class="time">3 mins ago</span>
                         </span>
                         <span class="message">
