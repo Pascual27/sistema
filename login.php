@@ -26,12 +26,12 @@
     <div>
       <a class="hiddenanchor" id="signup"></a>
       <a class="hiddenanchor" id="signin"></a>
-      <center>
-              <img src="imgen/12.png" alt="logo_instituto"  width="150px"/>
-            </center>
       <div class="login_wrapper">
         <div class="animate form login_form">
           <section class="login_content">
+          <center>
+              <img src="imgen/12.png" alt="logo_instituto"  width="150px"/>
+            </center>
             <form method="POST" action="operaciones/iniciar_sesion.php">
               <h1>Inicio de Sesión</h1>
               <div>
