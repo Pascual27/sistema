@@ -144,19 +144,13 @@
                     <li>
                       <a>
                         <span class="image"><img src="Gentella/production/images/img.jpg" alt="Profile Image" /></span>
-                        <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
+                        n>
                         
                       </a>
                     </li>
                     <li>
                       <div class="text-center">
-                        <a>
-                          <strong>See All Alerts</strong>
-                          <i class="fa fa-angle-right"></i>
-                        </a>
+                        <
                       </div>
                     </li>
                   </ul>
