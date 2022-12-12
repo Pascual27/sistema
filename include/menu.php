@@ -131,28 +131,7 @@
                       </a>
                     </li>
                     <li>
-                      <a>
-                        <span class="image"><img src="include/img.jpg" alt="Profile Image" /></span>
-                        <span>
-                          <span>Pascual Ñaupa</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a>
-                        <span class="image"><img src="Gentella/production/images/img.jpg" alt="Profile Image" /></span>
-                        n>
-                        
-                      </a>
-                    </li>
-                    <li>
-                      <div class="text-center">
-                        <
-                      </div>
-                    </li>
+                      
                   </ul>
                 </li>
               </ul>
