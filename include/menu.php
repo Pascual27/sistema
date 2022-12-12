@@ -1,7 +1,7 @@
 <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>sistema Academico!</span></a>
+              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>ds!</span></a>
             </div>
 
             <div class="clearfix"></div>
@@ -12,10 +12,10 @@
             <!-- menu profile quick info -->
             <div class="profile clearfix">
               <div class="profile_pic">
-                <img src="" alt="include/img.jpg" class="">
+                <img src="img" alt="include/img.jpg" class="">
               </div>
               <div class="profile_info">
-                <span>Bienvenido,</span>
+                <span>Bienvenido</span>
                 <h2><?php echo $res_b_u_s['Pascual Jordi Ñaupa Cruz']; ?></h2>
               </div>
             </div>
