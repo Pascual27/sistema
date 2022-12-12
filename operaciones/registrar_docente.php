@@ -18,7 +18,7 @@ $id_cargo          = $_POST ['id_cargo'];
 $b_docente = buscarDocenteById($conexion, $dni);
 $c_r_b_docente = mysqli_num_rows($b_docente);
 
-if ($c_r_b_docente == 0) {//validamos que no haya registros en la base de datos
+if ($c_r_b_docente == 0) {
   
   $insertar = "INSERT INTO docente (dni, apellidos_nombres,  fecha_nac, direccion, correo, telefono, id_genero, nivel_educacion, cond_laboral, id_cargo) 
   VALUES ('$dni','$apellidos_nombres', '$fecha_nac', '$direccion', '$correo', '$telefono','$id_genero', '$nivel_edu','$cond_laboral', '$id_cargo')";

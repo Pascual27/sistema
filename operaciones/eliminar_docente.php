@@ -1,5 +1,5 @@
 <?php
-include "../operciones/conexion.php"; 
+include "../include/conexion.php"; 
 $id = $_GET['id'];
 
 $sql = "DELETE FROM docente WHERE id='$id'";

@@ -16,7 +16,7 @@
               </div>
               <div class="profile_info">
                 <span>Bienvenido,</span>
-                <h2><?php echo $res_b_u_s['apellidos_nombres']; ?></h2>
+                <h2><?php echo $res_b_u_s['Pascual Jordi Ñaupa Cruz']; ?></h2>
               </div>
             </div>
             <!-- /menu profile quick info -->

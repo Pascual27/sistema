@@ -4,6 +4,7 @@ $docente = $_POST['docente']; //recibir datos y guardando en una variable $docen
 $usuario = $_POST['usuario']; //recibir datos y guardando en una variable $usuario
 $password = $_POST['password']; //recibir datos y guardando en una variable $password
 
+
 $password_fuerte = password_hash($password, PASSWORD_DEFAULT);// encriptar password
 
 $consulta = "INSERT INTO usuarios_docentes (id_docente, usuario, password) VALUES ('$docente', '$usuario', '$password_fuerte')";
