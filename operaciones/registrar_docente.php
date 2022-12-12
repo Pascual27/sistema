@@ -15,7 +15,7 @@ $cond_laboral      = $_POST ['cond_laboral'];
 $id_cargo          = $_POST ['id_cargo']; 
 
 
-$b_docente = buscarDocenteById($conexion, $dni);
+$b_docente = buscarDocenteByDni ($conexion, $dni);
 $c_r_b_docente = mysqli_num_rows($b_docente);
 
 if ($c_r_b_docente == 0) {
