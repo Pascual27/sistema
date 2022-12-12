@@ -27,8 +27,8 @@
       <a class="hiddenanchor" id="signup"></a>
       <a class="hiddenanchor" id="signin"></a>
       <center>
-<img-src="./imgen/12.png" alt="logo instituto" width="150px"/›
-</center>
+              <img src="imgen/12.png" alt="logo_instituto"  width="150px"/>
+            </center>
       <div class="login_wrapper">
         <div class="animate form login_form">
           <section class="login_content">
