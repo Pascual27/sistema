@@ -2,7 +2,7 @@
 include "../include/conexion.php";
 
 // traemos los datos  de neustro form para registrar el periodo academico
-$p_academico  = $_POST['nombre'];
+$p_academico  = $_POST['periodo academico'];
 $fecha_inicio  = $_POST['fecha_inicio'];
 $fecha_fin  = $_POST['fecha_fin'];
 $director  = $_POST['director'];
