@@ -32,4 +32,4 @@ if ($c_r_b_periodo_academico == 0) {//validamos que no haya registros en la base
 }
 
 
-?>
+?> 
