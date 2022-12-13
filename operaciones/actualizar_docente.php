@@ -1,19 +1,22 @@
 <?php
+
 include "../include/conexion.php";
-include "../include/busquedas.php";
+
+
+$id = $_POST['id'];
 $dni = $_POST['dni'];
-$ape_nom = $_POST['apellidos_nombres'];
+$apellidos_nombres = $_POST['apellidos_nombres'];
 $fecha_nac = $_POST['fecha_nac'];
 $direccion = $_POST['direccion'];
-$email = $_POST['correo'];
-$cel = $_POST['telefono'];
-$genero = $_POST['id_genero'];
-$nivel_edu = $_POST['nivel_educacion'];
+$correo = $_POST['correo'];
+$telefono = $_POST['telefono'];
+$id_genero = $_POST['id_genero'];
+$nivel_educacion = $_POST['nivel_educacion'];
 $cond_laboral = $_POST['cond_laboral'];
-$cargo = $_POST['id_cargo'];
+$id_cargo = $_POST['id_cargo'];
 
-$sql = "UPDATE docente SET dni='$dni', apellidos_nombres='$ape_nom', fecha_nac='$fecha_nac', direccion='$direccion', correo='$email', telefono='$cel', id_genero='$genero', nivel_educacion='$nivel_edu', cond_laboral='$cond_laboral', id_cargo='$cargo''";
 
+$sql = "UPDATE docente SET dni='$dni', apellidos_nombres='$apellidos_nombres', fecha_nac='$fecha_nac', direccion='$direccion', correo='$correo', telefono='$telefono', id_genero='$id_genero', nivel_educacion='$nivel_educacion', cond_laboral='$cond_laboral', id_cargo='$id_cargo' WHERE id='$id'";
 $ejec_consulta = mysqli_query($conexion, $sql);
 
 if ($ejec_consulta) {
@@ -22,12 +25,14 @@ if ($ejec_consulta) {
 					window.location= '../docentes.php';
 				</script>
 			";
-}else{
+} else {
     echo "<script>
 					alert('Error al Actualizar Registro');
 					window.history.back();
 				</script>
 			";
 }
+mysqli_close($conexion);
+?>
 
 ?>
